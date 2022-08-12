@@ -8,7 +8,10 @@
     <string name="no_decrypt_key">復号化キーがインポートされていない</string>
 
     <string name="proceed">続きを読む</string>
-
+    <string name="scan">スキャン</string>
+    <string name="browser">ブラウザ</string>
+    <string name="purchase">購入</string>
+    <string name="save">保存</string>
     <string name="activate">アクティブ化</string>
 
     <string name="update">更新</string>

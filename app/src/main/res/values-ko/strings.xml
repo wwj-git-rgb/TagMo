@@ -8,7 +8,10 @@
     <string name="no_decrypt_key">복호화 키를 가져오지 않음</string>
 
     <string name="proceed">계속</string>
-
+    <string name="scan">스캔</string>
+    <string name="browser">브라우저</string>
+    <string name="purchase">구매</string>
+    <string name="save">저장</string>
     <string name="accept">동의</string>
 
     <string name="activate">활성화</string>

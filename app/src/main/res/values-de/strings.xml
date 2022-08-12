@@ -6,6 +6,10 @@
     <string name="nfc_query">NFC ist derzeit deaktiviert. NFC aktivieren?</string>
 
     <string name="proceed">Weiterhin</string>
+    <string name="scan">Scan</string>
+    <string name="browser">Browser</string>
+    <string name="purchase">Kauf</string>
+    <string name="save">Speichern</string>
 
     <string name="accept">Akzeptieren</string>
     <string name="activate">Aktivieren</string>
