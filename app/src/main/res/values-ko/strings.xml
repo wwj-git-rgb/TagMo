@@ -17,6 +17,7 @@
 
     <string name="app">응용 프로그램</string>
 
+    <string name="random_serial">무작위 일련 번호</string>
     <string name="game_usage_view">호환되는 게임 보기</string>
     <string name="game_usage_hide">호환되는 게임 숨기기</string>
 
@@ -30,4 +31,9 @@
     <string name="yes">예</string>
     <string name="zelda_twilight">젤다의 전설 황혼의 공주</string>
 
+    <string name="speed_scan">스캔을 완료하려면 태그를 약간 들어 올리십시오.</string>
+
+    <string name="sub_button">%1$s 구독</string>
+    <string name="iap_button">%1$s 기부</string>
+    <string name="donation_thanks">당신의 지원을 당신을 감사하십시오!</string>
 </resources>

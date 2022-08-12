@@ -13,6 +13,7 @@
 
     <string name="app">Приложение</string>
 
+    <string name="random_serial">Случайный Серийный номер</string>
     <string name="game_usage_view">Просмотр совместимых игр</string>
     <string name="game_usage_hide">Скрыть Совместимые игры</string>
 
@@ -25,4 +26,9 @@
     <string name="allow">Позволять</string>
     <string name="yes">Да</string>
 
+    <string name="speed_scan">Слегка приподнимите метку, чтобы завершить сканирование</string>
+
+    <string name="sub_button">%1$s Подписка</string>
+    <string name="iap_button">%1$s Пожертвование</string>
+    <string name="donation_thanks">Спасибо вам за вашу поддержку!</string>
 </resources>

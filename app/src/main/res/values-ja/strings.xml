@@ -15,6 +15,7 @@
 
     <string name="app">アプリケーション</string>
 
+    <string name="random_serial">ランダムシリアル番号</string>
     <string name="game_usage_view">互換性のあるゲームを表示する</string>
     <string name="game_usage_hide">互換性のあるゲームを隠す</string>
 
@@ -28,4 +29,9 @@
     <string name="yes">はい。</string>
     <string name="zelda_twilight">ゼルダの伝説 トワイライトプリンセス HD</string>
 
+    <string name="speed_scan">スキャンを終えるために札をわずかに持ち上げて下さい</string>
+
+    <string name="sub_button">%1$s 定期購読</string>
+    <string name="iap_button">%1$s 寄付</string>
+    <string name="donation_thanks">あなたのサポートに感謝します！</string>
 </resources>

@@ -10,6 +10,7 @@
 
     <string name="app">Aplicación</string>
 
+    <string name="random_serial">Número de Serie Aleatorio</string>
     <string name="game_usage_view">Ver juegos compatibles</string>
     <string name="game_usage_hide">Ocultar Juegos Compatibles</string>
 
@@ -24,4 +25,9 @@
     <string name="allow">Permitir</string>
     <string name="yes">Sí</string>
 
+    <string name="speed_scan">Levante la etiqueta ligeramente para finalizar el escaneo</string>
+
+    <string name="sub_button">%1$s Suscripción</string>
+    <string name="iap_button">%1$s Donación</string>
+    <string name="donation_thanks">Gracias por su apoyo!</string>
 </resources>
