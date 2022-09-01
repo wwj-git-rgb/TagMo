@@ -836,8 +836,8 @@ public class FlaskSlotFragment extends Fragment implements
     }
 
     @Override
-    public void onDestroy() {
-        super.onDestroy();
+    public void onDestroyView() {
+        super.onDestroyView();
         dismissFlaskDiscovery();
         disconnectFlask();
     }
