@@ -1,0 +1,551 @@
+# Instincts generated from https://github.com/wwj-git-rgb/TagMo
+# Generated: 2026-06-05T10:49:38.267Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: TagMo-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/wwj-git-rgb/TagMo
+---
+
+# TagMo Commit Length
+
+## Action
+
+Keep commit messages concise (~41 characters)
+
+## Evidence
+
+- Average commit message length: 41 chars
+- Based on 100 commits
+
+---
+id: TagMo-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/wwj-git-rgb/TagMo
+---
+
+# TagMo Naming Files
+
+## Action
+
+Use snake_case naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: snake_case
+
+---
+id: TagMo-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/wwj-git-rgb/TagMo
+---
+
+# TagMo Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: TagMo-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/wwj-git-rgb/TagMo
+---
+
+# TagMo Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: TagMo-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/wwj-git-rgb/TagMo
+---
+
+# TagMo Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: TagMo-workflow-update-database-entries
+trigger: "when doing update database entries"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/wwj-git-rgb/TagMo
+---
+
+# TagMo Workflow Update Database Entries
+
+## Action
+
+Follow the update-database-entries workflow:
+1. Edit app/src/main/java/com/hiddenramblings/tagmo/AmiiboDictionary.java to add or update entries.
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: app/src/main/java/com/hiddenramblings/tagmo/AmiiboDictionary.java
+
+---
+id: TagMo-workflow-feature-development-with-ui
+trigger: "when doing feature development with ui"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/wwj-git-rgb/TagMo
+---
+
+# TagMo Workflow Feature Development With Ui
+
+## Action
+
+Follow the feature-development-with-ui workflow:
+1. Create or modify Java files in app/src/main/java/com/hiddenramblings/tagmo/
+2. Update or add corresponding layout XML files in app/src/main/res/layout/
+3. Update strings or menu XMLs in app/src/main/res/values/ or app/src/main/res/menu/
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: app/src/main/java/com/hiddenramblings/tagmo/*.java, app/src/main/res/layout/*.xml, app/src/main/res/values/*.xml
+
+---
+id: TagMo-workflow-version-bump
+trigger: "when doing version bump"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/wwj-git-rgb/TagMo
+---
+
+# TagMo Workflow Version Bump
+
+## Action
+
+Follow the version-bump workflow:
+1. Edit app/build.gradle to update the version number.
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: app/build.gradle
+
+---
+id: TagMo-workflow-readme-update
+trigger: "when doing readme update"
+confidence: 0.65
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/wwj-git-rgb/TagMo
+---
+
+# TagMo Workflow Readme Update
+
+## Action
+
+Follow the readme-update workflow:
+1. Edit README.md with new information.
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~3x per month
+- Files: README.md
+
+---
+id: TagMo-workflow-dependency-or-build-system-update
+trigger: "when doing dependency or build system update"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/wwj-git-rgb/TagMo
+---
+
+# TagMo Workflow Dependency Or Build System Update
+
+## Action
+
+Follow the dependency-or-build-system-update workflow:
+1. Edit app/build.gradle, build.gradle, gradle/wrapper/gradle-wrapper.properties, and/or ndk/jni/Android.mk as needed.
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: app/build.gradle, build.gradle, gradle/wrapper/gradle-wrapper.properties
+
+---
+id: TagMo-workflow-merge-external-contributions
+trigger: "when doing merge external contributions"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/wwj-git-rgb/TagMo
+---
+
+# TagMo Workflow Merge External Contributions
+
+## Action
+
+Follow the merge-external-contributions workflow:
+1. Merge branch or pull request.
+2. Resolve conflicts in various files as needed.
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: .gitignore, app/build.gradle, app/src/main/java/com/hiddenramblings/tagmo/*.java
+
+---
+id: tagmo-instinct-filename-snake-case
+trigger: "When creating a new file"
+confidence: 0.85
+domain: code-style
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Filename Snake Case
+
+## Action
+
+Name the file using snake_case
+
+## Evidence
+
+- Pattern in namingConventions.files: snake_case
+
+---
+id: tagmo-instinct-function-camel-case
+trigger: "When defining a new function"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Function Camel Case
+
+## Action
+
+Name the function using camelCase
+
+## Evidence
+
+- Pattern in namingConventions.functions: camelCase
+
+---
+id: tagmo-instinct-class-pascal-case
+trigger: "When creating a new class"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Class Pascal Case
+
+## Action
+
+Name the class using PascalCase
+
+## Evidence
+
+- Pattern in namingConventions.classes: PascalCase
+
+---
+id: tagmo-instinct-constant-screaming-snake-case
+trigger: "When declaring a constant"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Constant Screaming Snake Case
+
+## Action
+
+Name the constant using SCREAMING_SNAKE_CASE
+
+## Evidence
+
+- Pattern in namingConventions.constants: SCREAMING_SNAKE_CASE
+
+---
+id: tagmo-instinct-relative-imports
+trigger: "When importing modules or classes"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Relative Imports
+
+## Action
+
+Use relative import paths
+
+## Evidence
+
+- Pattern in importStyle: relative
+
+---
+id: tagmo-instinct-named-exports
+trigger: "When exporting functions or classes"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Named Exports
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- Pattern in exportStyle: named
+
+---
+id: tagmo-instinct-test-separate-location
+trigger: "When writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Test Separate Location
+
+## Action
+
+Place test files in a separate directory from source code
+
+## Evidence
+
+- Pattern in architecture.testLocation: separate
+
+---
+id: tagmo-instinct-commit-prefix-added
+trigger: "When adding new features or files"
+confidence: 0.85
+domain: git
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Commit Prefix Added
+
+## Action
+
+Prefix the commit message with 'added:'
+
+## Evidence
+
+- Seen in commit: 'added: Wolf Link Editor by @possi'
+
+---
+id: tagmo-instinct-commit-prefix-dev
+trigger: "When making development-related changes (fixes, updates, removals)"
+confidence: 0.85
+domain: git
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Commit Prefix Dev
+
+## Action
+
+Prefix the commit message with '[DEV]'
+
+## Evidence
+
+- Seen in commits: '[DEV] Updated .gitignore...', '[DEV] Removed unused files...'
+
+---
+id: tagmo-instinct-commit-merge-format
+trigger: "When merging branches or pull requests"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Commit Merge Format
+
+## Action
+
+Use 'Merge branch ...' or 'Merge pull request ...' as the commit message
+
+## Evidence
+
+- Seen in commit: 'Merge branch 'master' of https://github.com/azsde/TagMo'
+
+---
+id: tagmo-instinct-update-database
+trigger: "When someone wants to add new Amiibo figures or update existing database entries"
+confidence: 0.95
+domain: workflow
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Update Database
+
+## Action
+
+Edit app/src/main/java/com/hiddenramblings/tagmo/AmiiboDictionary.java to add or update entries
+
+## Evidence
+
+- Workflow: update-database-entries
+- Example commit: 'Edit app/src/main/java/com/hiddenramblings/tagmo/AmiiboDictionary.java to add or update entries.'
+
+---
+id: tagmo-instinct-feature-development-with-ui
+trigger: "When someone wants to add a new feature that has both backend and frontend (UI) components"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Feature Development With Ui
+
+## Action
+
+Create or modify Java files in app/src/main/java/com/hiddenramblings/tagmo/, update or add layout XML files in app/src/main/res/layout/, and update strings or menu XMLs in app/src/main/res/values/ or app/src/main/res/menu/
+
+## Evidence
+
+- Workflow: feature-development-with-ui
+- Example commit sequence in workflow
+
+---
+id: tagmo-instinct-version-bump
+trigger: "When someone wants to release a new version or reflect a significant update"
+confidence: 0.95
+domain: workflow
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Version Bump
+
+## Action
+
+Edit app/build.gradle to update the version number
+
+## Evidence
+
+- Workflow: version-bump
+- Example commit: 'Edit app/build.gradle to update the version number.'
+
+---
+id: tagmo-instinct-readme-update
+trigger: "When someone wants to document new features, update instructions, or add credits"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Readme Update
+
+## Action
+
+Edit README.md with new information
+
+## Evidence
+
+- Workflow: readme-update
+- Example commit: 'Edit README.md with new information.'
+
+---
+id: tagmo-instinct-dependency-or-build-system-update
+trigger: "When someone wants to update build system dependencies or fix build issues"
+confidence: 0.85
+domain: workflow
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Dependency Or Build System Update
+
+## Action
+
+Edit app/build.gradle, build.gradle, gradle/wrapper/gradle-wrapper.properties, and/or ndk/jni/Android.mk as needed
+
+## Evidence
+
+- Workflow: dependency-or-build-system-update
+- Example commit: 'Edit app/build.gradle, build.gradle, gradle/wrapper/gradle-wrapper.properties, and/or ndk/jni/Android.mk as needed.'
+
+---
+id: tagmo-instinct-merge-external-contributions
+trigger: "When someone wants to integrate external contributions or upstream changes"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: wwj-git-rgb/TagMo
+---
+
+# Tagmo Instinct Merge External Contributions
+
+## Action
+
+Merge branch or pull request and resolve conflicts in various files as needed
+
+## Evidence
+
+- Workflow: merge-external-contributions
+- Example commit: 'Merge branch or pull request.'
+
